@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://nostra.live/index.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>https://nostra.live/about.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/index.html</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://nostra.live/contact.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/about.html</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://nostra.live/terms&condition.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/contact.html</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://nostra.live/Privacy.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/terms&amp;condition.html</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://nostra.live/single.html</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/Privacy.html</loc>
+	<lastmod>2023-04-30T16:29:44+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>https://nostra.live/www.Nostra.live</loc>
-<lastmod>2023-04-30</lastmod>
+	<loc>https://nostra.live/privacy</loc>
+	<lastmod>2023-04-30T16:29:47+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 </urlset>
