@@ -3,6 +3,7 @@ const API_HOST = "youtube-mp3-download1.p.rapidapi.com";
 
 const form = document.querySelector('form');
 const output = document.getElementById('output');
+const downloadButton = document.getElementById('download-button');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -50,6 +51,11 @@ form.addEventListener('submit', (e) => {
   xhr.setRequestHeader('X-Rapidapi-Host', API_HOST);
   xhr.setRequestHeader('Host', API_HOST);
   xhr.send();
+});
+
+downloadButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  alert('Star');
 });
 
 function extractVideoId(url) {
