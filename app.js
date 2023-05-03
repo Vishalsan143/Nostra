@@ -1,9 +1,9 @@
-const API_KEY = "719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e";
-const API_HOST = "youtube-mp3-download1.p.rapidapi.com";
+<script>const API_KEY = "719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e";
+              const API_HOST = "youtube-mp3-download1.p.rapidapi.com";
+              
 
 const form = document.querySelector('form');
 const output = document.getElementById('output');
-const downloadButton = document.getElementById('download-button');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -53,13 +53,8 @@ form.addEventListener('submit', (e) => {
   xhr.send();
 });
 
-downloadButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  alert('Star');
-});
-
 function extractVideoId(url) {
   const regex = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
   const match = url.match(regex);
   return match ? match[2] : null;
-}
+}</script>
