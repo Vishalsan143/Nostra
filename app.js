@@ -1,4 +1,4 @@
-<script>const API_KEY = "719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e";
+const API_KEY = "719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e";
               const API_HOST = "youtube-mp3-download1.p.rapidapi.com";
               
 
@@ -57,4 +57,4 @@ function extractVideoId(url) {
   const regex = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
   const match = url.match(regex);
   return match ? match[2] : null;
-}</script>
+}
