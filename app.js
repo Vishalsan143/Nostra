@@ -1,5 +1,5 @@
 const API_KEY = "719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e";
-              const API_HOST = "youtube-mp3-download1.p.rapidapi.com";
+              const API_HOST = "youtube-mp36.p.rapidapi.com";
               
 
 const form = document.querySelector('form');
